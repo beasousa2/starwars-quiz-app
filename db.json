@@ -9,9 +9,11 @@
             "primary": "#121735",
             "secondary": "#0754A9",
             "mainBg": "#020211",
-            "contrastText": "#CFCABF",
+            "contrastText": "#F9F9F9",
             "wrong": "#832028",
-            "success": "#357a38"
+            "success": "#357a38",
+            "play": "#F2CB05",
+            "disable": "#808080"
         },
         "borderRadius": "4px"
     }
