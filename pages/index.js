@@ -4,6 +4,8 @@ import { useRouter } from 'next/router';
 
 import Footer from '../src/components/Footer';
 import Form from '../src/components/Form';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
@@ -23,8 +25,8 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
-    const router = useRouter();
-    const [name, setName] = React.useState('');
+  const router = useRouter();
+  const [name, setName] = React.useState('');
   return (
     <>
 
@@ -39,33 +41,31 @@ export default function Home() {
               <p>{db.description}</p>
               <Form
                 onSubmit={
-                    (infosDoEvento) => {
-                        infosDoEvento.preventDefault();
-                        router.push(`/quiz?name=${name}`);
-                        console.log("Fazendo uma submissão por meio do react");
-                }}>
-                  <Form.Input
-                    onChange={(infosDoEvento) => {
-                        console.log(infosDoEvento.target.value);
-                        //State
-                        setName(infosDoEvento.target.value);
-                    }}
-                    placeholder="Diz aí seu nome :)"
-                  />
-                  <Form.Button
-                    type="submit"
-                    disabled={name.length === 0}
-                  >
-                    Jogar {name}
-                  </Form.Button>
+                  (eventsInfo) => {
+                    eventsInfo.preventDefault();
+                    router.push(`/quiz?name=${name}`);
+                    console.log("Fazendo uma submissão por meio do react");
+                  }}>
+                <Input
+                  name="userName"
+                  onChange={(eventsInfo) => {
+                    console.log(eventsInfo.target.value);
+                    //State
+                    setName(eventsInfo.target.value);
+                  }}
+                  placeholder="Diz aí seu nome :)" />
+                <Button
+                  type="submit"
+                  disabled={name.length === 0}>
+                  {`Jogar ${name}`}
+                </Button>
               </Form>
             </Widget.Content>
           </Widget>
           <Widget>
-            <Widget.Header>
-              <h1>Quizes da Galera</h1>
-            </Widget.Header>
             <Widget.Content>
+              <h1>Quizes da Galera</h1>
+
               <p>Lorem ipsum dolor sit amet...</p>
             </Widget.Content>
           </Widget>

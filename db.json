@@ -1,8 +1,139 @@
 {
     "bg": "https://www.xtrafondos.com/wallpapers/star-wars-logo-3654.jpg",
-    "title": "Star Wars Quiz",
-    "description": "Teste os seus conhecimentos sobre os filmes e séries da saga StarWars",
-    "questions": [],
+    "title": "#StarWars Quiz",
+    "description": "Teste os seus conhecimentos sobre os filmes e séries da saga StarWars. E que a Força esteja com você.",
+    "questions": [
+      {
+        "image": "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/lightsabers-2-700x300.jpg",
+        "title": "Qual a definição correta sobre os Gray Jedi (Jedi Cinza)?",
+        "dificult": "Difícil",
+        "answer": 3,
+        "alternatives": [
+          "Não existiam",
+	        "Jedis que eram do lado Negro da Força e depois abandoram",
+          "Jedis que eram membros do Conselho e que abandoram a Força",
+          "Jedis que andavam na linha tênue entre o lado sombrio e o lado luminoso da força sem sucumbir ao lado negro",
+	        "Guerreiros que auto dominavam Jedis, mas nunca foram reconhecidos"
+        ]
+      },
+      {
+        "image": "https://s2.glbimg.com/GSzCiyKHKIS635zElsLAzRADihQ=/e.glbimg.com/og/ed/f/original/2015/12/11/sabre-de-luz.jpg",
+        "title": "Além dos cristais, que outro material é possível fazer um sabre de Luz?",
+        "dificult": "Difícil",
+        "answer": 3,
+        "alternatives": [
+          "Ferro",
+	        "Ouro",
+          "Bronze",
+          "Diamante",
+	        "Somente cristais"
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/jUcEUcpxPMrFhR0f8f/giphy.gif",
+        "title": "Qual o nome do metal de grande valor para os Mandalorianos?",
+        "dificult": "Fácil",
+        "answer": 2,
+        "alternatives": [
+          "Krani",
+	        "Deli",
+          "Baskar",
+          "Abat",
+	        "Oorban"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/55/63/d8/5563d8c666a7594ef2210d1c4b62cc07.jpg",
+        "title": "O símbolo da imagem pertence a que ordem?",
+        "dificult": "Fácil",
+        "answer": 4,
+        "alternatives": [
+          "Jedi",
+	        "Sith",
+          "Confederação",
+          "Imperial",
+	        "Rebeldes"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/HHlfq0F0erMwU/giphy.gif",
+        "title": "No episódio III da Saga StarWars qual o nome do planeta em que Anakin e Obi-Wan lutam um contra o outro?",
+        "dificult": "Fácil",
+        "answer": 4,
+        "alternatives": [
+          "Alderaan",
+	        "Gentes",
+          "Endor",
+          "Bespin",
+	        "Mustafar"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l1KsAVIlhsWoZC0Zq/giphy.gif",
+        "title": "Conflito galáctico para determinar a sobrevivência da República ou a independência da Confederação de Sistemas Independentes, ficou conhecido como:",
+        "dificult": "Médio",
+        "answer": 2,
+        "alternatives": [
+          "Batalha de Quell",
+	        "Batalha de Malastare",
+	        "Guerras Clônicas",
+	        "Batalha de Umbara",
+	        "Batalha de Sullust"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l1KsOGE23suZQeCfm/giphy.gif",
+        "title": "Mestre Jedi que sucumbiu ao lado sombrio Força e se tornou um Lord Sith.",
+        "dificult": "Médio",
+        "answer": 0,
+        "alternatives": [
+          "Dookan",
+          "Mace-Wundu",
+          "Meetra Surik",
+          "Qui-Gon Jinn",
+          "Kyle Katarn"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/kcgHzCzmPd603vqaR7/giphy.gif",
+        "title": "Qual o nome da nave de Din Djarin, O Mandaloriano?",
+        "dificult": "Fácil",
+        "answer": 0,
+        "alternatives": [
+          "Explorer",
+          "Reasonable Excuse",
+          "Durly Traveler",
+          "Stellar Monarch",
+          "Razor Crest"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/l3fZZPjMGUsjXPRa8/giphy.gif",
+        "title": "Qual o nome dos Droids que Luke e seu tio compraram dos Jawa?",
+        "dificult": "Fácil",
+        "answer": 3,
+        "alternatives": [
+          "BT-1 e C-3PO",
+          "R4-P17 e R2-D2",
+          "C1-10P e R2-D2",
+          "R2-D2 e C-3PO",
+          "C-3PO e BB-8"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/jKZ18lF8ADNuPfDLt2/giphy.gif",
+        "title": "Qual o nome do jogo que Han Solo ganhou a Millenium Falcon do Lando Calrissian?",
+        "dificult": "Fácil",
+        "answer": 0,
+        "alternatives": [
+          "Sabacc",
+          "Stellar",
+          "Pequan",
+          "Solar",
+          "Astral"
+        ]
+      }
+    ],
     "external": [],
     "theme": {
         "colors": {
